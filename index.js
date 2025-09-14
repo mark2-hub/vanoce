@@ -11,7 +11,7 @@ function calculateTimeUntilChristmas() {
     const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
 
-    return `${days} dní, ${hours} hodin a ${minutes} minut do Vánoc!`;
+    return `${days} dní, ${hours} hodin a ${minutes} minut do Vianoc!`;
 }
 
 // Webhook pro získání času do Vánoc

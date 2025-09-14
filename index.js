@@ -4,7 +4,7 @@ const app = express();
 // Funkce pro výpočet zbývajícího času do 24. 12. 2024
 function calculateTimeUntilChristmas() {
     const now = new Date();
-    const christmas = new Date('2024-12-24T00:00:00Z');
+    const christmas = new Date('2025-12-24T00:00:00Z');
     const diff = christmas - now;
 
     const days = Math.floor(diff / (1000 * 60 * 60 * 24));
